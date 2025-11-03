@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ankit Yadav — Portfolio</title>
+  <meta name="description" content="Portfolio of Ankit Yadav — Computer Science student, Java / C++ developer, GenAI Data Analytics." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4;--glass: rgba(255,255,255,0.02)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; background:linear-gradient(180deg,#071023 0%, #071028 60%);color:#e6eef6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    .container{max-width:1000px;margin:40px auto;padding:24px;animation:fadeIn 1s ease-in}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:22px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03);animation:slideUp 0.8s ease-in-out}
+    .row{display:flex;gap:20px;align-items:flex-start}
+    .col{flex:1}
+    header h1{margin:0;font-size:28px;letter-spacing:0.2px;animation:fadeInLeft 1s ease-in-out}
+    header p{color:var(--muted);margin:6px 0 0;animation:fadeInLeft 1.2s ease-in-out}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;animation:fadeInLeft 1.4s ease-in-out}
+    .pill{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px}
+    .section{margin-top:20px;animation:fadeIn 1s ease-in-out}
+    h2{margin:0 0 12px;font-size:18px}
+    ul{margin:0;padding-left:18px;color:var(--muted)}
+    .skills{display:flex;gap:8px;flex-wrap:wrap}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;color:#cfeff6;font-weight:600;font-size:13px;transition:transform 0.2s}
+    .skill:hover{transform:scale(1.08)}
+    .contact a{color:var(--accent);text-decoration:none}
+    .cta{display:inline-block;margin-top:14px;padding:10px 14px;background:linear-gradient(90deg,var(--accent),#34d399);color:#042028;border-radius:10px;font-weight:700;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s}
+    .cta:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(6,182,212,0.4)}
+    footer{margin-top:30px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:720px){.row{flex-direction:column}}
+    .job{margin-bottom:12px}
+    .job .title{font-weight:700}
+    .job .meta{color:var(--muted);font-size:13px;margin-top:4px}
+
+    /* Animations */
+    @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+    @keyframes slideUp{from{transform:translateY(40px);opacity:0}to{transform:translateY(0);opacity:1}}
+    @keyframes fadeInLeft{from{transform:translateX(-40px);opacity:0}to{transform:translateX(0);opacity:1}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="row">
+          <div class="col">
+            <h1>ANKIT YADAV</h1>
+            <p>Computer Science &amp; Engineering — B.Tech '27 · Developer (Java | C++ | C) · GenAI &amp; Data Analytics</p>
+            <div class="meta">
+              <div class="pill">Bhopal, Madhya Pradesh, India</div>
+              <div class="pill">CodeChef: 1300+</div>
+              <div class="pill">GeeksforGeeks: 200+ solved</div>
+            </div>
+            <div class="section contact">
+              <h2>Contact</h2>
+              <div style="color:var(--muted)">📞 6268213923 &nbsp; · &nbsp; ✉️ <a href="mailto:ankityad971@gmail.com">ankityad971@gmail.com</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/ankit-yadav-924220297" target="_blank">LinkedIn</a></div>
+              <a class="cta" href="mailto:ankityad971@gmail.com">Email Me</a>
+            </div>
+          </div>
+          <div style="width:240px;min-width:200px;animation:slideUp 1s ease-in-out">
+            <div style="background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:16px;border-radius:10px;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <div style="width:96px;height:96px;border-radius:999px;background:linear-gradient(135deg,#0ea5a4,#60a5fa);display:flex;align-items:center;justify-content:center;color:#042028;font-weight:800;font-size:28px;animation:fadeIn 1.2s ease-in-out">AY</div>
+              <div style="margin-top:14px;text-align:center;color:var(--muted)">Computer Science Student<br/>Technocrats Institute of Technology</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="section">
+        <h2>Summary</h2>
+        <p style="color:var(--muted);margin:0">Engineering student passionate about innovation and problem-solving. Skilled in Java, C++, data structures, and GenAI-powered data analytics. Looking to apply skills in software development and data projects.</p>
+      </div>
+
+      <div class="section row">
+        <div class="col">
+          <h2>Experience</h2>
+          <div class="job">
+            <div class="title">Technical Student — Technocrats Group of Institutions</div>
+            <div class="meta">Nov 2023 - Dec 2024 · Bhopal, MP</div>
+            <div style="color:var(--muted);margin-top:6px">Contributed to on-campus technical initiatives and gained hands-on experience with Java and data tasks.</div>
+          </div>
+
+          <h2 style="margin-top:18px">Education</h2>
+          <div style="color:var(--muted)">
+            <strong>TIT Technocrats Group of Institutions, Bhopal</strong><br/>B.Tech — Computer Science &amp; Engineering (Sept 2023 - Jun 2027)
+          </div>
+          <div style="color:var(--muted);margin-top:10px">
+            <strong>Govt Divisional Gyanoday Residential School</strong><br/>Higher Education — Mathematics &amp; Biology (2020 - 2023)
+          </div>
+        </div>
+
+        <div style="width:320px;min-width:260px">
+          <h2>Skills &amp; Certifications</h2>
+          <div class="skills" style="margin-bottom:12px">
+            <div class="skill">Java (Core)</div>
+            <div class="skill">C++</div>
+            <div class="skill">C</div>
+            <div class="skill">Data Structures</div>
+            <div class="skill">GenAI Data Analytics</div>
+            <div class="skill">Problem Solving</div>
+          </div>
+
+          <h2>Certifications</h2>
+          <ul>
+            <li>Oracle Java Fundamentals</li>
+            <li>Oracle Cloud Infrastructure 2025 - Certified Foundations Associate</li>
+            <li>Tata — GenAI Powered Data Analytics Job Simulation</li>
+            <li>Microsoft: Create and manage canvas apps with Power Apps</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+          <li>CodeChef: 1300 rating, 1000+ problems submitted</li>
+          <li>GeeksforGeeks: 200+ problems solved, competitive rank at college</li>
+        </ul>
+      </div>
+
+ 
+    </div>
+  </div>
+</body>
+</html>
